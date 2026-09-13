@@ -14,7 +14,7 @@ const steps=[
   ['Install','Our team fits, aligns, seals and leaves the space ready to use.'],
 ]
 
-function Brand({light=false}){return <a className={`brand ${light?'brand--light':''}`} href="#top" aria-label="Hozek home"><b>HOZEK</b><span>Glass + Aluminium</span></a>}
+function Brand({light=false}){return <a className={`brand ${light?'brand--light':''}`} href="#top" aria-label="Hozek Glass and Aluminium home"><img src="/images/hozek-logo.png" alt="Hozek Glass and Aluminium"/></a>}
 
 function App(){
   const [menuOpen,setMenuOpen]=useState(false)
